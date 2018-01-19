@@ -9,7 +9,7 @@ setup(
             'esme = esme.__main__:main'
         ]
     },
-    license='',
+    license='MPL 2.0',
     setup_requires=['vcversioner'],
     vcversioner={'version_module_paths': ['esme/_version.py'],
                  },

@@ -1,9 +1,4 @@
 from setuptools import setup, find_packages
-from os import path
-
-
-basepath = path.dirname(path.abspath(__file__))
-root = path.abspath(path.join(basepath,'..','..'))
 
 setup(
     name='esme',
@@ -17,8 +12,6 @@ setup(
     license='',
     setup_requires=['vcversioner'],
     vcversioner={'version_module_paths': ['esme/_version.py'],
-                 'root': root,
-                 'version_file': 'python_api_version.txt'
                  },
     author='Graham Voysey',
     author_email='gvoysey@bu.edu',
